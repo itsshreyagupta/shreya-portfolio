@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shreya Gupta – Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet" />
+  <style>
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: black;
+      z-index: -3;
+    }
+    .global-background-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -2;
+      opacity: 0.2;
+    }
+  </style>
+  <script>
+    window.onload = function () {
+      if (localStorage.getItem('theme') === 'dark') {
+        document.body.classList.add('dark-mode');
+      }
+    };
+  </script>
+</head>
+<body>
+  <video class="global-background-video" autoplay muted loop playsinline>
+    <source src="images/background full vedio.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <header>
+    <nav>
+      <h1>Shreya Gupta</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#notable">Design Projects</a></li>
+        <li><a href="#technical">Technical Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Graphic Designer | Web Designer | Web Developer</h2>
+    <p>|Crafting beautiful interfaces and smart digital journeys that connect, engage, and convert|</p>
+    <a class="btn" href="#notable">Explore My Work</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <img src="images\shreya.jpg.jpg" alt="Photo of Shreya Gupta" class="profile" />
+    <p>Hi, I'm <strong>Shreya Gupta</strong> — a passionate and detail-oriented graphic designer with over two years of experience crafting compelling visuals for marketing, branding, and digital platforms.</p>
+    <p>I specialize in:</p>
+    <ul>
+      <li><strong>🎨 Social Media Design:</strong> Instagram posts, carousels, highlight icons</li>
+      <li><strong>🎞 Motion Graphics:</strong> Animated reels, product explainers</li>
+      <li><strong>🖥 UI/Web:</strong> Landing pages, hero graphics, icons</li>
+      <li><strong>📦 Branding:</strong> Logos, PR box, brand kits</li>
+      <li><strong>📩 Invitations:</strong> Digital invites, flyers, posters</li>
+    </ul>
+    <p><strong>Web Design Tools:</strong> HTML5, CSS3, JavaScript, Bootstrap</p>
+    <p><strong>Graphic Design Tools:</strong> Photoshop, Illustrator, Canva, Figma</p>
+    <p>
+      <a href="Shreya gupta 2025 Resume.pdf" download>Download Resume</a> |
+      <a href="https://linkedin.com/in/shreya-gupta-756363231" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+    </p>
+  </section>
+
+  <section id="notable" data-aos="fade-up">
+      <h2>Graphic Design Projects</h2>
+  <div class="project-grid">
+
+    <div class="project-card">
+      <img src="https://drive.google.com/thumbnail?id=1KAJzX_cFe7ugkx_1ZdxJakWNinuXR-vO&sz=w1000" alt="PremiumInvites Poster" />
+      <h3>PremiumInvites Poster</h3>
+      <p>Digital invitation posters for events and weddings – boosting client bookings with creative design.</p>
+      <ul>
+        <li>Tools: Adobe Photoshop, Canva</li>
+        <li>Skills: Poster Design, Invitation Layout</li>
+      </ul>
+    </div>
+
+    <div class="project-card">
+      <img src="https://drive.google.com/thumbnail?id=1PZ9_vOxylwdRK191ygwbFB-nJhCXD-XV&sz=w1000" alt="Skift Hair Mist Campaign" />
+      <h3>Skift Hair Mist Campaign</h3>
+      <p>Social visuals and motion ads for post-workout freshness product – increased social engagement by 40%.</p>
+      <ul>
+        <li>Tools: Adobe Illustrator, Adobe Spark</li>
+        <li>Skills: Branding, Social Media Ads</li>
+      </ul>
+    </div>
+
+    <div class="project-card">
+      <img src="https://drive.google.com/thumbnail?id=1HAXnF5qFch9OVGVq6_OiwWlxyRzAt4eu&sz=w1000" alt="Lakhiram Dairy Branding" />
+      <h3>Lakhiram Dairy Branding</h3>
+      <p>Branding, posters, and Instagram strategy to build trust for a homegrown dairy brand.</p>
+      <ul>
+        <li>Tools: Canva, Photoshop</li>
+        <li>Skills: Logo Design, Social Media Strategy</li>
+      </ul>
+    </div>
+
+    <div class="project-card">
+      <img src="https://drive.google.com/thumbnail?id=1IU56JZaIxHli4gxro119XXmOLdoiORhN&sz=w1000" alt="MG Cafe" />
+      <h3>MG Cafe Menu & Posters</h3>
+      <p>Designed menu layouts and promotional posters to match the brand’s cozy and vibrant feel.</p>
+      <ul>
+        <li>Tools: Figma, Adobe Photoshop</li>
+        <li>Skills: Menu Layout, Cafe Branding</li>
+      </ul>
+    </div>
+
+    <div class="project-card">
+      <img src="https://drive.google.com/thumbnail?id=1hvDurh1wP113Jvkpg1Z7IJIymT55Zbat&sz=w1000" alt="Explore Packers" />
+      <h3>Explore Packers Grid & Reels</h3>
+      <p>Designed travel-themed social grid, highlight icons, and reels for Instagram promotion.</p>
+      <ul>
+        <li>Tools: Canva, Adobe Illustrator</li>
+        <li>Skills: Instagram Reels, Highlight Covers</li>
+      </ul>
+    </div>
+
+    <div class="project-card">
+      <img src="https://drive.google.com/thumbnail?id=1HaWc1Dc-V76Xc7-Ph6bVcvEbIUIDzFcz&sz=w1000" alt="Branding Work" />
+      <h3>Branding Projects</h3>
+      <p>Multiple logos and branding kits for events, packaging and beauty startups.</p>
+      <ul>
+        <li>Tools: Adobe Photoshop, Canva</li>
+        <li>Skills: Logo Design, Brand Identity</li>
+      </ul>
+    </div>
+
+      <div class="project-card">
+        <img src="images\brand-identity-package\Brand identity package.png" alt="Brand Identity Package" style="width: 100%; border-radius: 8px; margin-bottom: 1rem;" />
+        <h3>Brand Identity Package</h3>
+        <p>Developed full brand identity packages including logos, color palettes, typography systems, and presentation mockups for brands in the beauty and event industries.</p>
+        <ul class="project-skills">
+          <li>Tools: Illustrator, Figma, Adobe Spark</li>
+          <li>Skills: Brand Guidelines, Typography Systems</li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <div class="robotic-video-container">
+          <video autoplay muted loop playsinline controls>
+            <source src="images\robotic\shreya reel.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <h3>Robotic Posters</h3>
+        <p>Poster series for robotics and education-related campaigns.</p>
+        <ul>
+          <li>Tools: Photoshop, Figma</li>
+          <li>Skills: Poster Design, STEM Branding</li>
+        </ul>
+      </div>
+  </div>
+  </section>
+
+  <section id="technical" data-aos="fade-up">
+    <h2>Technical Projects</h2>
+    
+     <div class="project-grid">
+
+    <div class="project-card">
+        <img src="images\ecommerce-website.jpg.jpg" alt="E-Commerce Website" />
+        <h3>E-Commerce Website Optimization</h3>
+        <p>Designed a user-friendly e-commerce front-end with cart and product listing features.</p>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>MySQL Database</li>
+          <li>Responsive UI Design</li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <img src="images\hotel-booking-website.jpg.jpg" alt="Hotel Booking Website" />
+        <h3>Hotel Booking Website</h3>
+        <p>Created a hotel and room reservation system with real-time bookings and data management.</p>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>PHP (Backend Logic)</li>
+          <li>MySQL Database</li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <img src="images\restaurant-website.jpg.jpg" alt="Restaurant Website" />
+        <h3>Restaurant Website</h3>
+        <p>Developed a restaurant website featuring menus, gallery, and reservation options.</p>
+        <ul>
+          <li>HTML, CSS, JavaScript</li>
+          <li>Bootstrap Framework</li>
+          <li>Responsive Layout</li>
+        </ul>
+      </div>
+
+      <div class="project-card">
+        <img src="images\pg-life-website.jpg.jpg" alt="PG Life Website" />
+        <h3>PG Life Website</h3>
+        <p>Built a PG listing and rental system with filters for budget, location, and amenities.</p>
+        <ul>
+          <li>React.js Frontend</li>
+          <li>PHP & PostgreSQL</li>
+          <li>Bootstrap Styling</li>
+        </ul>
+      </div>
+
+  </div>
+</section>
+
+  <section id="contact" data-aos="fade-up">
+  <h2>Contact Me</h2>
+  <form action="https://getform.io/f/bzyndgga" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required />
+  <input type="email" name="email" placeholder="Your Email" required />
+  <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+  <input type="hidden" name="_redirect" value="thank-you.html">
+  <button type="submit">Send</button>
+</form>
+    <footer>
+  <div class="footer-content">
+    <p class="footer-tagline">Thank you for visiting my portfolio – let's create something amazing!</p>
+    
+    <div class="footer-links">
+      <a href="#about">About</a> |
+      <a href="#notable">Projects</a> |
+      <a href="#technical">Tech</a> |
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-social">
+      <a href="https://linkedin.com/in/shreya-gupta-756363231" target="_blank" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://instagram.com/exploreindia" target="_blank" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="mailto:shreyagupta@example.com" aria-label="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </div>
+
+    <a href="#top" class="back-to-top">↑ Back to Top</a>
+    <p class="copyright">&copy; <span id="year"></span> Shreya Gupta. All rights reserved.</p>
+  </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
